@@ -108,5 +108,14 @@ console.log(flatArray([1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]]));
 
 //task1
 // к сожалению даже в голову не лезет решение, может еще время надо подумать, или хотя бы помощь от интернета в этой задаче... голова не может придумать план решения
+function isMagicSquare(matrix) {
+  const res = matrix.length;
 
+  for (let i = 0; i < res; i++) {
+    let sumRow = 0;
+    let sumColumn = 0;
+    sumRow += matrix[i];
+    sumColumn += matrix[i];
+  }
+}
 export default Number;
